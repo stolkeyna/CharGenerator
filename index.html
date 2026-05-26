@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+    <h2>Generator bohatera!</h2>
+    <!-- <label for="Bohater">Którego bohatera edytujesz/generujesz?</label>
+    <input type="text" name="Bohater" id="Bohater"> -->
+    <label for="name">Imie:</label>
+    <input type="text" name="name" id="name">
+    <label for="role">Rola:</label>
+    <input type="text" name="rola" id="rola">
+    <label for="item">Przedmiot:</label>
+    <input type="text" name="item" id="item">
+    <label for="skill">Dodaj skill:</label>
+    <input type="text" name="skill" id="skill">
+    <label for="lvlup">Level? (1-15)</label>
+    <input type="range" name="lvlup" id="lvlup" min="1" max="15">
+    <button onclick="generujBohatera()">Generuj/edytuj!</button>
+
+    <h4>____________________________________________________________________________</h4>
+
+    <h2>=== Twój bohater ===</h2>
+    <h3 id="imie"></h3>
+    <h3 id="role"></h3>
+    <h3 id="lvl"></h3>
+    <h3 id="skills"></h3>
+    <h3 id="items"></h3>
     <script src="script.js"></script>
 </body>
+
 </html>
